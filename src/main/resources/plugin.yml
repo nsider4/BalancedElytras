@@ -1,0 +1,10 @@
+name: BalancedElytra
+author: Nsider
+version: 1.0
+main: balancedelytra.BalancedElytra
+api-version: 1.13
+commands:
+    bel:
+        description: Main command
+        aliases: dwe
+        usage: /<command>
