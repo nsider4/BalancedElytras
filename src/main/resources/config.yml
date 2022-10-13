@@ -1,0 +1,55 @@
+lang: 'en'
+
+###################
+###  FIREWORK  ####
+###################
+disableFireworkBoostCompletely: false
+FireworkDisabled_EnableMessage: true
+FireworkDisabled_Message: '&aFirework Boost is disabled in this world'
+
+#If 'disableFireworkBoostCompletely' is true, next 5 lines will be ignored of course since it won't be used
+FireworkCooldown_enable: true
+FireworkBoost_Cooldown: 5
+enableFireworkCooldownAnimation: true
+FireworkCooldown_EnableMessage: false
+FireworkCooldown_Message: '&aYou can use this item in &f%time_left%s'
+
+#This will ignore any listed worlds and will make the settings above active in ALL WORLDS.
+ignoreWorldsFunction_Fireworks: false
+#Worlds listed here will be affected by settings above.
+nofireworkboost-worlds:
+  - 'world_nether'
+  
+###################
+####  RIPTIDE  ####
+###################
+disableTridentRiptideUse: false
+riptideDisabled_EnableMessage: true
+riptideDisabled-message: '&aTrident Boost is disabled in this world'
+
+#If 'disableTridentRiptideUse' is true, next 5 lines will be ignored of course since it won't be used
+RiptideCooldown_enable: true
+RiptideBoost_Cooldown: 5
+enableRiptideCooldownAnimation: true
+RiptideCooldown_EnableMessage: false
+RiptideCooldown_Message: '&aYou can use this item in &f%time_left%s'
+
+ignoreWorldsFunction_Riptide: false
+noriptideboost-worlds:
+  - 'world_nether'
+
+###################
+####  ELYTRAS  ####
+###################
+AvoidElytraCrashDamage_enable: true
+
+dequipElytra-enable: false
+dequipElytra_Message-enable: true
+dequipElytra_Message: '&aYour elytras have been returned to your inventory!'
+
+message-enable: true
+disabledElytra-message: '&aElytras are not enabled in this world!'
+
+ignoreWorldsFunction_Elytra: false
+noelytra-worlds:
+  - 'world_nether'
